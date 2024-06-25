@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="56810a79fbdc4c6e96683c14670a3737" Name="Diagram1" ZoomLevel="40">
+        <EntityTypeShape EntityType="SummerTrainingDBModel.Certificate_Template" Width="1.5" PointX="11.125" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummerTrainingDBModel.Course_Classification" Width="1.5" PointX="11.125" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummerTrainingDBModel.Course_Schedule" Width="1.5" PointX="7.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummerTrainingDBModel.Regestered_In_The_Course" Width="1.5" PointX="5.375" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummerTrainingDBModel.Support_Tickets" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummerTrainingDBModel.User" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummerTrainingDBModel.User_Role" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="SummerTrainingDBModel.FK_Course_Schedule_Certificate_Template" ManuallyRouted="false" />
+        <AssociationConnector Association="SummerTrainingDBModel.FK_Course_Schedule_Course_Classification" ManuallyRouted="false" />
+        <AssociationConnector Association="SummerTrainingDBModel.FK_Regestered_In_The_Course_Course_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="SummerTrainingDBModel.FK_Regestered_In_The_Course_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SummerTrainingDBModel.FK_Support_Tickets_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SummerTrainingDBModel.FK_User_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

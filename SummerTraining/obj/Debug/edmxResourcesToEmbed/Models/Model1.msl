@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SummerTrainingDBModelStoreContainer" CdmEntityContainer="SummerTrainingDBEntities">
+    <EntitySetMapping Name="Certificate_Template">
+      <EntityTypeMapping TypeName="SummerTrainingDBModel.Certificate_Template">
+        <MappingFragment StoreEntitySet="Certificate_Template">
+          <ScalarProperty Name="Certificate_Id" ColumnName="Certificate_Id" />
+          <ScalarProperty Name="Certificate_Template1" ColumnName="Certificate_Template" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Course_Classification">
+      <EntityTypeMapping TypeName="SummerTrainingDBModel.Course_Classification">
+        <MappingFragment StoreEntitySet="Course_Classification">
+          <ScalarProperty Name="Classification_Id" ColumnName="Classification_Id" />
+          <ScalarProperty Name="Classification_Name" ColumnName="Classification_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Course_Schedule">
+      <EntityTypeMapping TypeName="SummerTrainingDBModel.Course_Schedule">
+        <MappingFragment StoreEntitySet="Course_Schedule">
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Course_Title" ColumnName="Course_Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Start_Time" ColumnName="Start_Time" />
+          <ScalarProperty Name="End_Time" ColumnName="End_Time" />
+          <ScalarProperty Name="Course_Status" ColumnName="Course_Status" />
+          <ScalarProperty Name="Seats_Number" ColumnName="Seats_Number" />
+          <ScalarProperty Name="Course_Place" ColumnName="Course_Place" />
+          <ScalarProperty Name="User_Type" ColumnName="User_Type" />
+          <ScalarProperty Name="Classification_Id" ColumnName="Classification_Id" />
+          <ScalarProperty Name="Course_Type" ColumnName="Course_Type" />
+          <ScalarProperty Name="Certificate_Id" ColumnName="Certificate_Id" />
+          <ScalarProperty Name="Trainer_Name" ColumnName="Trainer_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Regestered_In_The_Course">
+      <EntityTypeMapping TypeName="SummerTrainingDBModel.Regestered_In_The_Course">
+        <MappingFragment StoreEntitySet="Regestered_In_The_Course">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Attendance_Status" ColumnName="Attendance_Status" />
+          <ScalarProperty Name="Evaluation_Status" ColumnName="Evaluation_Status" />
+          <ScalarProperty Name="Certificate_Status" ColumnName="Certificate_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Support_Tickets">
+      <EntityTypeMapping TypeName="SummerTrainingDBModel.Support_Tickets">
+        <MappingFragment StoreEntitySet="Support_Tickets">
+          <ScalarProperty Name="Ticket_No" ColumnName="Ticket_No" />
+          <ScalarProperty Name="Tilte" ColumnName="Tilte" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="SummerTrainingDBModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="AR_Name" ColumnName="AR_Name" />
+          <ScalarProperty Name="EN_Name" ColumnName="EN_Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Role_Id" ColumnName="Role_Id" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Role">
+      <EntityTypeMapping TypeName="SummerTrainingDBModel.User_Role">
+        <MappingFragment StoreEntitySet="User_Role">
+          <ScalarProperty Name="Role_Id" ColumnName="Role_Id" />
+          <ScalarProperty Name="Role_Name" ColumnName="Role_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
